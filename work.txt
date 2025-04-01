@@ -1,0 +1,6 @@
+1) PATCH https://jqzfegkhegqqoorcrzae.supabase.co/rest/v1/grades?id=eq.6
+тело
+
+{
+    "grade":"5"
+}
