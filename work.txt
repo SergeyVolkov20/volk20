@@ -23,3 +23,5 @@
     "group": "ИС86"
 }
 
+4) GET https://jqzfegkhegqqoorcrzae.supabase.co/rest/v1/grades?grade=gt.3&select=*
+
