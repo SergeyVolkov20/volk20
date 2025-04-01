@@ -4,3 +4,14 @@
 {
     "grade":"5"
 }
+
+2) POST https://jqzfegkhegqqoorcrzae.supabase.co/rest/v1/works
+тело
+
+{
+    "name": "кр3",
+    "desc": "5+5",
+    "subject": "математика",
+    "body": "10",
+    "student": "2"
+}
