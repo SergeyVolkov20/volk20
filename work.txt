@@ -15,3 +15,11 @@
     "body": "10",
     "student": "2"
 }
+
+3) POST https://jqzfegkhegqqoorcrzae.supabase.co/rest/v1/users
+тело
+{
+    "full_name": "Курзенков Данииль",
+    "group": "ИС86"
+}
+
