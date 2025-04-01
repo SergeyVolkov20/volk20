@@ -25,3 +25,11 @@
 
 4) GET https://jqzfegkhegqqoorcrzae.supabase.co/rest/v1/grades?grade=gt.3&select=*
 
+5) GET https://jqzfegkhegqqoorcrzae.supabase.co/rest/v1/teacher_work_count?work_count=gt.2&select=*
+тело 
+
+create VIEW teacher_work_count as 
+select teacher_id, COUNT(work_id) AS work_count
+from grades
+group by teacher_id;
+
